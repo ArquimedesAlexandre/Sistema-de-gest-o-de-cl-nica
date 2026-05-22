@@ -60,3 +60,74 @@ Funcionamento Geral do Sistema
 7. Relatórios
   A clínica pode gerar relatórios simples do sistema.
   Os relatórios ajudam a visualizar informações importantes sobre o funcionamento da clínica.
+
+Classes do Sistema
+
+Paciente
+Representa os pacientes da clínica.
+Atributos:
+  id
+  nome
+  idade
+  sexo
+  telefone
+  endereço
+Métodos:
+  cadastrarPaciente()
+  listarPacientes()
+  buscarPaciente()
+  Medico
+
+Representa os médicos da clínica.
+Atributos:
+  id
+  nome
+  especialidade
+  telefone
+  horárioDisponivel
+Métodos:
+  listarMedicos()
+  adicionarMedico()
+  Consulta
+
+Responsável pelas consultas médicas.
+
+Atributos:
+idConsulta
+paciente
+medico
+data
+hora
+estadoConsulta
+Métodos:
+marcarConsulta()
+listarConsultas()
+cancelarConsulta()
+Pagamento
+
+Controla os pagamentos da clínica.
+
+Atributos:
+  idPagamento
+  paciente
+  valor
+  metodoPagamento
+  dataPagamento
+Métodos:
+  registrarPagamento()
+  listarPagamentos()
+  Medicamento
+
+Responsável pelo estoque de remédios.
+
+Atributos:
+  idMedicamento
+  nome
+  quantidade
+  validade
+  preco
+Métodos:
+  adicionarMedicamento()
+  atualizarEstoque()
+  listarMedicamentos()
+  Relatorio
