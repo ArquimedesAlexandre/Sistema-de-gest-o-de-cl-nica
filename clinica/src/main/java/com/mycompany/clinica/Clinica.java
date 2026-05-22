@@ -1,9 +1,12 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+package com.mycompany.clinica;
 import java.util.Scanner;
 
-public class ClinicaEscolar {
+public class Clinica {
 
     public static void main(String[] args) {
-
         Scanner scanner = new Scanner(System.in);
         int opcao;
 

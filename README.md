@@ -15,6 +15,8 @@ praticar programação em Java;
 aprender estruturas de decisão (switch);
 utilizar estruturas de repetição (do while);
 trabalhar com entrada de dados usando Scanner;
+trabalhar com Strings e arrayList;
+trabalhar com registros;
 simular um sistema real de forma simples.
 
 Funcionalidades do Sistema
