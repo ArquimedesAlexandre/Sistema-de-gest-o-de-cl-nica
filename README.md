@@ -18,6 +18,7 @@ trabalhar com entrada de dados usando Scanner;
 trabalhar com Strings e arrayList;
 trabalhar com registros;
 simular um sistema real de forma simples.
+trabalhar com ficheiros e funções
 
 Funcionalidades do Sistema
 
